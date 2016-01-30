@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'next-home-game',
     environment: environment,
+    podModulePrefix: 'next-home-game/pods',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
