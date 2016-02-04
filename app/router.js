@@ -6,7 +6,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('losangeles', { path: '/LosAngeles' });
+  this.route('losangeles', { path: '/LosAngeles' }, function() {
+    this.route('lagalaxy', { path: '/LAGalaxy' });
+    this.route('lakers');
+    this.route('clippers');
+    this.route('kings');
+  });
 });
 
 export default Router;
