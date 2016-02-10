@@ -2,9 +2,8 @@
 {{ log model }}
 <nav>
   <ul>
-
     {{#each model.data as |team| }}
-    <li>{{#link-to "losangeles.teams" }}{{team.name}}{{/link-to}}</li>
+    <li>{{#link-to "losangeles.teams" team.name}}{{team.name}}{{/link-to}}</li>
     {{/each}}
   </ul>
 </nav>
