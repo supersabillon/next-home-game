@@ -1,11 +1,11 @@
 <h2>LA Teams</h2>
-
+{{ log model }}
 <nav>
   <ul>
-    <li>{{#link-to "losangeles.lagalaxy" }}Galaxy{{/link-to}}</li>
-    <li>{{#link-to "losangeles.lakers" }}Lakers{{/link-to}}</li>
-    <li>{{#link-to "losangeles.kings" }}Kings{{/link-to}}</li>
-    <li>{{#link-to "losangeles.clippers" }}Clippers{{/link-to}}</li>
+
+    {{#each model.data as |team| }}
+    <li>{{#link-to "losangeles.teams" }}{{team.name}}{{/link-to}}</li>
+    {{/each}}
   </ul>
 </nav>
 
