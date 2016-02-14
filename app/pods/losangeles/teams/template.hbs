@@ -1,3 +1,9 @@
 {{outlet}}
 
-<h3>Here we are</h3>
+<h3>Schedule for {{model.name}}</h3>
+
+<ul>
+{{#each model.schedule as |game| }}
+<li>vs {{game.team}} on {{game.date}}</li>
+{{/each}}
+</ul>
