@@ -40,6 +40,61 @@ export default Ember.Route.extend({
                 team: "SJ Earthquakes",
                 date: "2016-05-22 16",
                 competition: "MLS"
+            },
+            {
+                team: "Sporting Kansas City",
+                date: "2016-06-02 19:30",
+                competition: "MLS"
+            },
+            {
+                team: "Colorado Rapids",
+                date: "2016-06-22 19:30",
+                competition: "MLS"
+            },
+            {
+                team: "Vancouver Whitecaps FC",
+                date: "2016-07-04 19:30",
+                competition: "MLS"
+            },
+            {
+                team: "Houston Dynamo",
+                date: "2016-07-15 20",
+                competition: "MLS"
+            },
+            {
+                team: "NY Red Bulls",
+                date: "2016-08-07 18:30",
+                competition: "MLS"
+            },
+            {
+                team: "Colorado Rapids",
+                date: "2016-08-13 19:30",
+                competition: "MLS"
+            },
+            {
+                team: "Vancouver Whitecaps FC",
+                date: "2016-08-27 19:30",
+                competition: "MLS"
+            },
+            {
+                team: "Columbus Crew SC",
+                date: "2016-09-03 19:30",
+                competition: "MLS"
+            },
+            {
+                team: "Orlando City SC",
+                date: "2016-09-11 16",
+                competition: "MLS"
+            },
+            {
+                team: "Seattle Sounders FC",
+                date: "2016-09-25",
+                competition: "MLS"
+            },
+            {
+                team: "FC Dallas",
+                date: "2016-10-23 13",
+                competition: "MLS"
             }
         ]
       },
