@@ -4,8 +4,8 @@ export default Ember.Route.extend({
   model() {
     var teams = {
       data: [{
-        "name": "Galaxy",
-        "schedule": [
+        name: "Galaxy",
+        schedule: [
             {
                 team: "Santos Laguna",
                 date: "2016-02-24 19",
