@@ -5,6 +5,13 @@ export default Ember.Route.extend({
     var teams = {
       data: [{
         name: "Galaxy",
+        address: {
+            name: "StubHub Center",
+            street: "18400 Avalon Boulevard",
+            city: "Carson",
+            state: "CA",
+            zip: 90746
+        },
         schedule: [
             {
                 team: "Santos Laguna",
