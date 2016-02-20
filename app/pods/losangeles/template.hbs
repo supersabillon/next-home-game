@@ -1,7 +1,6 @@
-{{#each model.data as |team| }}
-    {{#game-meta home-team=team.name away-team=team.schedule.[0].team date=team.schedule.[0].date}}
-    {{/game-meta}}
+{{#next-game data=model.data}}
+{{/next-game}}
 
-{{/each}}
+
 
 {{outlet}}
