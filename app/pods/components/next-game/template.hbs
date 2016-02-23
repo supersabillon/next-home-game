@@ -1,6 +1,3 @@
-{{#each data as |team| }}
-    {{#game-meta home-team=team.name away-team=team.schedule.[0].team date=team.schedule.[0].date}}
-    {{/game-meta}}
-{{/each}}
-
+{{#link-to "losangeles.schedule" team.name}}<h2>{{team.name}} vs {{team.schedule.[0].team}}</h2>{{/link-to}}
+<p>{{team.schedule.[0].date}}</p>
 {{yield}}

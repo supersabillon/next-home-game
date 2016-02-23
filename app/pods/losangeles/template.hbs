@@ -1,6 +1,8 @@
-{{#next-game data=model.data}}
-{{/next-game}}
-
-
+{{#each model.data as |team| }}
+  <article class="next-game">
+    {{#next-game}}
+    {{/next-game}}
+  </article>
+{{/each}}
 
 {{outlet}}
