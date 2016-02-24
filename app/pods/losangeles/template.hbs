@@ -1,7 +1,10 @@
 {{#each model.data as |team| }}
   <article class="next-game">
-    {{#next-game}}
-    {{/next-game}}
+    {{#link-to "losangeles.schedule" team.name}}
+      {{#next-game schedule=team.schedule}}
+        {{team.name}} vs 
+      {{/next-game}}
+    {{/link-to}}
   </article>
 {{/each}}
 
