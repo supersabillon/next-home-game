@@ -104,22 +104,23 @@ export default Ember.Route.extend({
                 competition: "MLS"
             }
         ]
-      },
-      {
-        "name": "Kings"
-      },
-      {
-        "name": "Lakers"
-      },
-      {
-        "name": "Clippers"
-      },
-      {
-        "name": "Dodgers"
-      },
-      {
-        "name": "Rams"
-      }]
+      }
+      // {
+      //   "name": "Kings"
+      // },
+      // {
+      //   "name": "Lakers"
+      // },
+      // {
+      //   "name": "Clippers"
+      // },
+      // {
+      //   "name": "Dodgers"
+      // },
+      // {
+      //   "name": "Rams"
+      // }
+      ]
     };
 
     return teams;
