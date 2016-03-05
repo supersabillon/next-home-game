@@ -5,12 +5,14 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   opponent: Ember.computed('schedule', function() {
     const NOW = moment();
-    let schedule = this.get('schedule');
-    let nextGame = schedule.map(function(item) {
-      return moment(item.date).diff(NOW, 'days');
+    let schedule = this.get('schedule.date');
+    let nextGame = schedule.filter(function(index) {
+      console.log(this);
+      //return moment(schedule.date).diff(NOW, 'days') > 0;
     });
     
-    console.log(this.getIndexOfLowest(nextGame));
+   // console.log(nextGame);
+    //console.log(this.getIndexOfLowest(nextGame));
 
     return schedule[0].team;
   }),
