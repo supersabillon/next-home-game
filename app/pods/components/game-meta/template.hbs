@@ -1,7 +1,6 @@
-<article class="next-game">
-  {{#link-to "losangeles.schedule" home-team}}<h2>{{home-team}} vs {{away-team}}</h2>{{/link-to}}
+<h2>{{yield}} vs {{opponent.team}}</h2>
+<div class="meta meta-time">{{time}}</div>
+<div class="meta meta-location">{{data.address.name}}, {{data.address.city}} {{data.address.state}}</div>
 
-   <p>{{date}}</p>
-</article>
 
-{{yield}}
+
