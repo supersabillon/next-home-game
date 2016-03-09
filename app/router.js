@@ -5,8 +5,8 @@ const Router = Ember.Router.extend({
   location: config.locationType
 });
 
-Router.map(function() {
-  this.route('losangeles', { path: '/la' }, function() {
+Router.map(function () {
+  this.route('losangeles', { path: '/la' }, function () {
     this.route('schedule', {
       path: '/:losangeles_name'
     });
