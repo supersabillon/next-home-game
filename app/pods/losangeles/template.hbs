@@ -1,11 +1,1 @@
-{{#each model.data as |data| }}
-  <article class="next-game">
-    {{#link-to "losangeles.schedule" data.name}}
-      {{#next-game data=data}}
-        {{data.name}} 
-      {{/next-game}}
-    {{/link-to}}
-  </article>
-{{/each}}
-
 {{outlet}}
