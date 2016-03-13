@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function () {
   this.route('losangeles', { path: '/la' }, function () {
     this.route('index', {
-      path: '/test'
+      path: '/'
     });
     this.route('schedule', {
       path: '/:losangeles_name'
