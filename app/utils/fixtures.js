@@ -99,7 +99,24 @@ export var data = [{
       competition: 'MLS'
     }
   ]
-}
+},
+  {
+    name: 'Clippers',
+    address: {
+      name: 'STAPLES Center',
+      street: '1111 S. Figueroa St',
+      city: 'Los Angeles',
+      state: 'CA',
+      zip: 90015
+    },
+    schedule: [
+      {
+        team: 'Cleveland Cavaliers',
+        date: '2016-03-13 12:30',
+        competition: 'NBA'
+      }
+    ]
+  },
   // {
   //   "name": "Kings"
   // },
