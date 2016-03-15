@@ -622,16 +622,53 @@ export var data = [{
       }
     ]
   },
-  // {
-  //   "name": "Kings"
-  // },
-  // {
-  //   "name": "Lakers"
-  // },
-  // {
-  //   "name": "Clippers"
-  // },
-
+  {
+    name: 'Kings',
+    address: {
+      name: 'STAPLES Center',
+      street: '1111 S. Figueroa St',
+      city: 'Los Angeles',
+      state: 'CA',
+      zip: 90015
+    },
+    schedule: [
+      {
+        team: 'New York Rangers',
+        date: '2016-03-17 19:30',
+        competition: 'NHL'
+      },
+      {
+        team: 'Boston Bruins',
+        date: '2016-03-19 19:30',
+        competition: 'NHL'
+      },
+      {
+        team: 'Edmonton Oilers',
+        date: '2016-03-26 19:00',
+        competition: 'NHL'
+      },
+      {
+        team: 'Calgary Flames',
+        date: '2016-03-31 19:30',
+        competition: 'NHL'
+      },
+      {
+        team: 'Dallas Stars',
+        date: '2016-04-02 13:00',
+        competition: 'NHL'
+      },
+      {
+        team: 'Anaheim Ducks',
+        date: '2016-04-07 19:30',
+        competition: 'NHL'
+      },
+      {
+        team: 'Winnipeg Jets',
+        date: '2016-04-09 19:00',
+        competition: 'NHL'
+      }
+    ]
+  },
   // {
   //   "name": "Rams"
   // }
