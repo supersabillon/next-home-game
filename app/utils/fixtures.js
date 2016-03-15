@@ -565,6 +565,63 @@ export var data = [{
     ]
 
   },
+  {
+    name: 'Lakers',
+    address: {
+      name: 'STAPLES Center',
+      street: '1111 S. Figueroa St',
+      city: 'Los Angeles',
+      state: 'CA',
+      zip: 90015
+    },
+    schedule: [
+      {
+        team: 'Sacramento Kings',
+        date: '2016-03-15 19:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Phoenix Suns',
+        date: '2016-03-18 19:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Memphis Grizzlies',
+        date: '2016-03-22 19:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Denver Nuggets',
+        date: '2016-03-25 19:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Washington Wizards',
+        date: '2016-03-27 18:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Miami Heat',
+        date: '2016-03-30 19:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Boston Celtics',
+        date: '2016-04-03 18:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Los Angeles Clippers',
+        date: '2016-04-06 19:30',
+        competition: 'NBA'
+      },
+      {
+        team: 'Utah Jazz',
+        date: '2016-04-13 19:30',
+        competition: 'NBA'
+      }
+    ]
+  },
   // {
   //   "name": "Kings"
   // },
