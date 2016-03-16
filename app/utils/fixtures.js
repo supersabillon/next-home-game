@@ -1,5 +1,5 @@
 export var data = [{
-  name: 'Galaxy',
+  name: 'LA Galaxy',
   address: {
     name: 'StubHub Center',
     street: '18400 Avalon Boulevard',
@@ -101,7 +101,7 @@ export var data = [{
   ]
 },
   {
-    name: 'Clippers',
+    name: 'Los Angeles Clippers',
     address: {
       name: 'STAPLES Center',
       street: '1111 S. Figueroa St',
@@ -153,7 +153,7 @@ export var data = [{
     ]
   },
   {
-    name: 'Dodgers',
+    name: 'Los Angeles Dodgers',
     address: {
       name: 'Dodger Stadium',
       street: '1000 Elysian Park ave',
@@ -566,7 +566,7 @@ export var data = [{
 
   },
   {
-    name: 'Lakers',
+    name: 'Los Angeles Lakers',
     address: {
       name: 'STAPLES Center',
       street: '1111 S. Figueroa St',
@@ -623,7 +623,7 @@ export var data = [{
     ]
   },
   {
-    name: 'Kings',
+    name: 'Los Angeles Kings',
     address: {
       name: 'STAPLES Center',
       street: '1111 S. Figueroa St',
@@ -670,7 +670,7 @@ export var data = [{
     ]
   },
   {
-    name: 'Angels',
+    name: 'Los Angeles Angels',
     address: {
       name: 'Angel Stadium',
       street: '2000 Gene Aury Way',
