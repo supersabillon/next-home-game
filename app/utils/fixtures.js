@@ -669,6 +669,26 @@ export var data = [{
       }
     ]
   },
+  {
+    name: 'Angels',
+    address: {
+      name: 'Angel Stadium',
+      street: '2000 Gene Aury Way',
+      city: 'Anaheim',
+      state: 'CA',
+      zip: 92806
+    },
+    schedule: [
+      {
+        team: {
+          city: 'Chicago',
+          name: 'Cubs'
+        },
+        date: '2016-04-04 19:05',
+        competition: 'MLB'
+      }
+    ]
+  }
   // {
   //   "name": "Rams"
   // }
