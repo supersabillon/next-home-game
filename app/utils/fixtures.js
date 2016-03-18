@@ -680,10 +680,7 @@ export var data = [{
     },
     schedule: [
       {
-        team: {
-          city: 'Chicago',
-          name: 'Cubs'
-        },
+        team: 'Chicago Cubs',
         date: '2016-04-04 19:05',
         competition: 'MLB'
       }
