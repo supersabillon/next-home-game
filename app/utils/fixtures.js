@@ -683,6 +683,146 @@ export var data = [{
         team: 'Chicago Cubs',
         date: '2016-04-04 19:05',
         competition: 'MLB'
+      },
+      {
+        team: 'Chicago Cubs',
+        date: '2016-04-05 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-04-07 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-04-08 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-04-09 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-04-10 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-04-22 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-04-23 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-04-24 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Kansas City Royals',
+        date: '2016-04-25 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Kansas City Royals',
+        date: '2016-04-26 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Kansas City Royals',
+        date: '2016-04-27 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Tampa Bay Rays',
+        date: '2016-05-06 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Tampa Bay Rays',
+        date: '2016-05-07 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Tampa Bay Rays',
+        date: '2016-05-08 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'St. Louis Cardinals',
+        date: '2016-05-10 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'St. Louis Cardinals',
+        date: '2016-05-11 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'St. Louis Cardinals',
+        date: '2016-05-12 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Los Angeles Dodgers',
+        date: '2016-05-18 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Los Angeles Dodgers',
+        date: '2016-05-19 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Baltimore Orioles',
+        date: '2016-05-20 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Baltimore Orioles',
+        date: '2016-05-21 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Baltimore Orioles',
+        date: '2016-05-22 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-05-27 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-05-28 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-05-29 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Detroit Tigers',
+        date: '2016-05-30 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Detroit Tigers',
+        date: '2016-05-31 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Detroit Tigers',
+        date: '2016-06-01 16:05',
+        competition: 'MLB'
       }
     ]
   }
