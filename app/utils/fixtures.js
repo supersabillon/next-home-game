@@ -823,6 +823,266 @@ export var data = [{
         team: 'Detroit Tigers',
         date: '2016-06-01 16:05',
         competition: 'MLB'
+      },
+      {
+        team: 'Cleveland Indians',
+        date: '2016-06-10 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Cleveland Indians',
+        date: '2016-06-11 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Cleveland Indians',
+        date: '2016-06-12 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Minnesota Twins',
+        date: '2016-06-13 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Minnesota Twins',
+        date: '2016-06-14 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Minnesota Twins',
+        date: '2016-06-15 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-06-23 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-06-24 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-06-25 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-06-26 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-06-27 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-06-28 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-06-29 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Chicago White Sox',
+        date: '2016-07-15 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Chicago White Sox',
+        date: '2016-07-16 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Chicago White Sox',
+        date: '2016-07-17 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-07-18 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-07-19 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-07-20 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Boston Red Sox',
+        date: '2016-07-28 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Boston Red Sox',
+        date: '2016-07-29 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Boston Red Sox',
+        date: '2016-07-30 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Boston Red Sox',
+        date: '2016-07-31 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-08-02 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-08-03 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-08-04 16:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-08-15 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-08-16 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-08-17 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-08-18 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'New York Yankees',
+        date: '2016-08-19 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'New York Yankees',
+        date: '2016-08-20 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'New York Yankees',
+        date: '2016-08-21 tbd',
+        competition: 'MLB'
+      },
+      {
+        team: 'Cincinnati Reds',
+        date: '2016-08-29 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Cincinnati Reds',
+        date: '2016-08-30 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Cincinnati Reds',
+        date: '2016-08-31 16:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-09-09 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-09-10 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Texas Rangers',
+        date: '2016-09-11 tbd',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-09-12 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-09-13 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Seattle Mariners',
+        date: '2016-09-14 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Toronto Blue Jays',
+        date: '2016-09-15 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Toronto Blue Jays',
+        date: '2016-09-16 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Toronto Blue Jays',
+        date: '2016-09-17 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Toronto Blue Jays',
+        date: '2016-09-18 12:35',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-09-26 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-09-27 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Oakland Athletics',
+        date: '2016-09-28 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-09-30 19:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-10-01 18:05',
+        competition: 'MLB'
+      },
+      {
+        team: 'Houston Astros',
+        date: '2016-10-02 12:05',
+        competition: 'MLB'
       }
     ]
   }
