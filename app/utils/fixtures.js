@@ -1085,8 +1085,8 @@ export var data = [{
         competition: 'MLB'
       }
     ]
+  },
+  {
+    name: "Los Angeles Rams",
   }
-  // {
-  //   "name": "Rams"
-  // }
 ]; 

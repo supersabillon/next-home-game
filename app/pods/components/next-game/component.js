@@ -3,14 +3,20 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  opponent: Ember.computed('schedule', function () {
+  opponent: Ember.computed('schedule', function() {
     const NOW = moment();
     let schedule = this.get('data.schedule');
-    let nextGames = schedule.filter(function (element, index) {
-      return moment(element.date).diff(NOW, 'days') >= 0;
-    });
 
-    return nextGames[this.getIndexOfLowest(nextGames)];
+    if (schedule) {
+      let nextGames = schedule.filter(function(element, index) {
+        return moment(element.date).diff(NOW, 'days') >= 0;
+      });
+      
+      return nextGames[this.getIndexOfLowest(nextGames)];
+    } else {
+      return false;
+    };
+
   }),
 
   getIndexOfLowest(arr) {
