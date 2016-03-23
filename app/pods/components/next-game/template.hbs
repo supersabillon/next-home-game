@@ -1,5 +1,8 @@
 {{#if opponent}}
-{{game-meta opponent=opponent data=data}}
+  {{#link-to "losangeles.schedule" data.name}}
+    {{game-meta opponent=opponent data=data}}
+  {{/link-to}}
 {{else}}
-<p>no game</p>
+  <h2>{{data.name}}</h2>
+    <p>No schedule yet.</p>
 {{/if}}
