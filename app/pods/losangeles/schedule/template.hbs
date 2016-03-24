@@ -2,6 +2,6 @@
 
 <ul>
 {{#each model.schedule as |game| }}
-<li>vs {{game.team}} on {{game.date}}</li>
+<li>vs {{game.team}} on {{format-date game.date}}</li>
 {{/each}}
 </ul>
