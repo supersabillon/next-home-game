@@ -11,7 +11,7 @@ Router.map(function () {
       path: '/'
     });
     this.route('schedule', {
-      path: '/:losangeles_name'
+      path: '/:losangeles_shortname'
     });
   });
 });

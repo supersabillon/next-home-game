@@ -2,8 +2,12 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function (params) {
-    var data = this.modelFor('losangeles');
+    let teams = this.modelFor('losangeles').data;
 
-    return data.data[0];
+    let data = teams.find(function(item) {
+      return item.shortname === params.losangeles_shortname;
+    });
+
+   return data;
   }
 });
