@@ -1,13 +1,4 @@
-<h3>Schedule for {{model.name}}</h3>
+<h3>Home schedule for {{model.name}}</h3>
 
-<ul>
-{{!--{{#each data as |opponent| }}
-<li>vs {{opponent.team}} on {{format-date opponent.date}}</li>
-{{/each}} --}}
-</ul>
-{{#each model as |data| }}
-  <article class="next-game">
-    {{next-game data=data}}
-  </article>
-{{/each}}
+{{home-schedule schedule=model.schedule}}
 

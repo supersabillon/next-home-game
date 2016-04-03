@@ -1,0 +1,6 @@
+<ul>
+  {{#each game as |opponent| }}
+  <li>vs {{opponent.team}} on {{format-date opponent.date}}</li>
+  {{/each}}
+</ul>
+
