@@ -1,7 +1,13 @@
 <h3>Schedule for {{model.name}}</h3>
 
 <ul>
-{{#each data as |opponent| }}
+{{!--{{#each data as |opponent| }}
 <li>vs {{opponent.team}} on {{format-date opponent.date}}</li>
-{{/each}}
+{{/each}} --}}
 </ul>
+{{#each model as |data| }}
+  <article class="next-game">
+    {{next-game data=data}}
+  </article>
+{{/each}}
+

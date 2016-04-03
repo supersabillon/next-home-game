@@ -7,7 +7,9 @@ export default Ember.Route.extend({
     let schedule = teams.find(function(item) {
       return item.shortname === params.losangeles_shortname;
     });
+    console.log(schedule);
+    let data = 'data';
 
-   return data;
+   return schedule;
   }
 });
