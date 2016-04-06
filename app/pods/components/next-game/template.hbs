@@ -1,10 +1,15 @@
-{{#if opponent}}
-  {{#link-to "losangeles.schedule" data.shortname}}
-    <h2>{{data.name}} vs {{opponent.team}}</h2>
-    <div class="meta meta-time">{{formatDate opponent.date}}</div>
-    <div class="meta meta-location">{{data.address.name}}, {{data.address.city}} {{data.address.state}}</div>
-  {{/link-to}}
-{{else}}
-  <h2>{{data.name}}</h2>
-    <p>No schedule yet.</p>
-{{/if}}
+{{#each opponents as |opponent| }}
+
+  <article class="next-game">
+    {{#if opponent}}
+      {{#link-to "losangeles.schedule" opponent.shortname}}
+        <h2>{{opponent.name}} vs {{opponent.team}}</h2>
+        <div class="meta meta-time">{{formatDate opponent.date}}</div>
+        <div class="meta meta-location">{{opponent.address.name}}, {{opponent.address.city}} {{opponent.address.state}}</div>
+      {{/link-to}}
+    {{else}}
+      <h2>{{opponent.name}}</h2>
+        <p>No schedule yet.</p>
+    {{/if}}
+  </article>
+{{/each}}

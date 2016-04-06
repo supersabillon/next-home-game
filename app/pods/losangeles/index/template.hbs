@@ -1,13 +1,1 @@
-{{#each model.data as |data| }}
-  <article class="next-game">
-    {{next-game data=data}}
-  </article>
-  
-{{else }}
-  <article class="next-game">
-    <p>no game</p>
-  </article>
-{{/each}}
-
-
-{{outlet}}
+{{next-game model=model.data}}
