@@ -1,9 +1,8 @@
 {{#each opponents as |opponent| }}
-
   <article class="next-game">
     {{#if opponent}}
       {{#link-to "losangeles.schedule" opponent.shortname}}
-        <h2>{{opponent.name}} vs {{opponent.team}}</h2>
+        <h2>{{hometeam.name}} vs {{opponent.team}}</h2>
         <div class="meta meta-time">{{formatDate opponent.date}}</div>
         <div class="meta meta-location">{{opponent.address.name}}, {{opponent.address.city}} {{opponent.address.state}}</div>
       {{/link-to}}

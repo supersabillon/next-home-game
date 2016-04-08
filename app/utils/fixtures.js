@@ -143,7 +143,7 @@ export var data = [{
         competition: 'NBA'
       },
       {
-        team: 'Dalls Mavericks',
+        team: 'Dallas Mavericks',
         date: '2016-04-10 12:30',
         competition: 'NBA'
       },
