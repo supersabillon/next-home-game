@@ -9,15 +9,14 @@ export default Ember.Component.extend({
     let self = this;
 
     let data = this.get('model').map(function(team) {
-      let hometeam = team.name;
 
       if(team.schedule) {
         let games = team.schedule.filter(function(element, index) {
           return moment(element.date).diff(NOW, 'days') >= 0;
         });
-
         return games[self.getIndexOfLowest(games)];
        };
+
     });
 
     let sorted = data.sort(function(a,b) {
