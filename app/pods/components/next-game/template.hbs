@@ -1,13 +1,13 @@
 {{#each fixtures as |fixture| }}
   <article class="next-game">
-    {{#if fixture.opponent}}
+    {{#if fixture.opponent.date}}
       {{#link-to "losangeles.schedule" opponent.shortname}}
         <h2>{{fixture.name}} vs {{fixture.opponent.team}}</h2>
         <div class="meta meta-time">{{formatDate fixture.opponent.date}}</div>
         <div class="meta meta-location">{{fixture.address.name}}, {{fixture.address.city}} {{fixture.address.state}}</div>
       {{/link-to}}
     {{else}}
-      <h2>{{opponent.name}}</h2>
+      <h2>{{fixture.name}}</h2>
         <p>No schedule yet.</p>
     {{/if}}
   </article>
