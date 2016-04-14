@@ -4,7 +4,11 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+      sassOptions: {
+        includePaths: [
+          'bower_components/bootstrap-sass/assets/stylesheets'
+        ]
+      }
   });
 
   // Use `app.import` to add additional libraries to the generated
@@ -21,9 +25,7 @@ module.exports = function(defaults) {
   // along with the exports of each module as its value.
 
   app.import('bower_components/moment/moment.js');
-  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
-  app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css');
-  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
+  app.import('bower_components/bootstrap-sass/assets/javascripts/bootstrap.js');
   app.import('bower_components/lodash/lodash.js');
   
   return app.toTree();
