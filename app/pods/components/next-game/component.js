@@ -14,17 +14,17 @@ export default Ember.Component.extend({
       obj.address = team.address;
       obj.opponent = {};
       
-      if(team.schedule.length) {
+      if(team.schedule) {
         let games = team.schedule.filter(function(element, index) {
           return moment(element.date).diff(NOW, 'days') >= 0;
         });
-        obj.opponent = games[0];
-       } else {
-         obj.opponent.date = null;
+        obj.opponent = games[0] || false;
        }
       
       return obj;
     });
+    
+    console.log(data);
 
     // sort by date
     let sorted = data.sort(function(a,b) {

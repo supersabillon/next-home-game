@@ -6,9 +6,6 @@
         <div class="meta meta-time">{{formatDate fixture.opponent.date}}</div>
         <div class="meta meta-location">{{fixture.address.name}}, {{fixture.address.city}} {{fixture.address.state}}</div>
       {{/link-to}}
-    {{else}}
-      <h2>{{fixture.name}}</h2>
-        <p>No schedule yet.</p>
     {{/if}}
   </article>
 {{/each}}

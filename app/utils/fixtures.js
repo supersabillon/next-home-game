@@ -111,48 +111,7 @@ export var data = [{
       state: 'CA',
       zip: 90015
     },
-    schedule: [
-      {
-        team: 'Cleveland Cavaliers',
-        date: '2016-03-13 12:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Portland Trail Blazers',
-        date: '2016-03-24 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Denver Nuggets',
-        date: '2016-03-27 12:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Boston Celtics',
-        date: '2016-03-28 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Washington Wizards',
-        date: '2016-04-03 12:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Los Angeles Lakers',
-        date: '2016-04-05 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Dallas Mavericks',
-        date: '2016-04-10 12:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Memphis Grizzlies',
-        date: '2016-04-12 19:30',
-        competition: 'NBA'
-      }
-    ]
+    schedule: []
   },
   {
     name: 'Los Angeles Dodgers',
@@ -578,53 +537,7 @@ export var data = [{
       state: 'CA',
       zip: 90015
     },
-    schedule: [
-      {
-        team: 'Sacramento Kings',
-        date: '2016-03-15 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Phoenix Suns',
-        date: '2016-03-18 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Memphis Grizzlies',
-        date: '2016-03-22 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Denver Nuggets',
-        date: '2016-03-25 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Washington Wizards',
-        date: '2016-03-27 18:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Miami Heat',
-        date: '2016-03-30 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Boston Celtics',
-        date: '2016-04-03 18:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Los Angeles Clippers',
-        date: '2016-04-06 19:30',
-        competition: 'NBA'
-      },
-      {
-        team: 'Utah Jazz',
-        date: '2016-04-13 19:30',
-        competition: 'NBA'
-      }
-    ]
+    schedule: []
   },
   {
     name: 'Los Angeles Kings',
