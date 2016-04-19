@@ -12,6 +12,7 @@ export default Ember.Component.extend({
 
       obj.name = team.name;
       obj.address = team.address;
+      obj.shortname = team.shortname;
       obj.opponent = {};
       
       if(team.schedule) {
